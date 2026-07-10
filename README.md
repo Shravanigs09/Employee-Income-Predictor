@@ -1,138 +1,161 @@
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-black?logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-blue?logo=numpy)
-![License](https://img.shields.io/badge/License-MIT-green)
+# Employee Income Predictor
 
-# 💼 Employee Income Predictor using Machine Learning
+## Project Overview
 
-## 📌 Project Overview
+The Employee Income Predictor is a Machine Learning project that predicts whether an employee earns more than **50K** or less than or equal to **50K** annually using demographic and employment-related information.
 
-The **Employee Income Predictor** is a Machine Learning project that predicts whether an individual's annual income is **greater than $50K** or **less than or equal to $50K** based on demographic and employment-related information.
-
-This project uses the **Adult Census Income Dataset** and follows a complete Machine Learning workflow, including data preprocessing, exploratory data analysis (EDA), model training, evaluation, and prediction.
+The project is built using the Adult Census Income Dataset and compares multiple machine learning algorithms to determine the best-performing model.
 
 ---
 
-## 🎯 Objectives
+## Features
 
-- Predict employee income category.
-- Perform data cleaning and preprocessing.
-- Train and evaluate machine learning models.
-- Analyze important features affecting income.
-- Build a reusable prediction model.
-
----
-
-## 📊 Dataset
-
-**Dataset:** Adult Census Income Dataset
-
-### Features
-- Age
-- Workclass
-- Education
-- Marital Status
-- Occupation
-- Relationship
-- Race
-- Gender
-- Capital Gain
-- Capital Loss
-- Hours per Week
-- Native Country
-
-**Target Variable**
-- <=50K
-- >50K
+- Data Cleaning
+- Data Preprocessing
+- Outlier Detection
+- Feature Scaling using MinMaxScaler
+- Train-Test Split
+- Multiple Machine Learning Models
+- Model Comparison
+- Accuracy Evaluation
+- Classification Report
+- Income Prediction
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 - Scikit-learn
 - Google Colab
-- Jupyter Notebook
+- GitHub
 
 ---
 
-## ⚙️ Machine Learning Workflow
+## Dataset
 
-```
-Dataset
-   ↓
-Data Cleaning
-   ↓
-Exploratory Data Analysis
-   ↓
-Feature Engineering
-   ↓
-Data Preprocessing
-   ↓
-Model Training
-   ↓
-Model Evaluation
-   ↓
-Income Prediction
-```
+Dataset: Adult Census Income Dataset
+
+Target Variable:
+
+- <=50K
+- >50K
 
 ---
 
-## 📈 Features
+## Machine Learning Models Used
 
-✔ Data Cleaning
-
-✔ Exploratory Data Analysis
-
-✔ Missing Value Handling
-
-✔ Feature Encoding
-
-✔ Machine Learning Model Training
-
-✔ Prediction
-
-✔ Model Evaluation
+- Logistic Regression
+- Random Forest
+- K-Nearest Neighbors (KNN)
+- Multi Layer Perceptron (Neural Network)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
-```
 Employee-Income-Predictor/
-│
-├── notebook/
-├── dataset/
-├── src/
-├── models/
-├── images/
-├── report/
-├── README.md
-├── requirements.txt
-└── LICENSE
+
+```
+dataset/
+images/
+models/
+notebook/
+report/
+src/
+
+README.md
+requirements.txt
+LICENSE
 ```
 
 ---
 
-## 🚀 Future Improvements
+## Results
+
+The project compares different machine learning algorithms.
+
+Random Forest achieved the highest accuracy among the implemented models.
+
+---
+
+## Screenshots
+
+### Dataset Preview
+
+![Dataset](images/dataset_preview.png)
+
+---
+
+### Age Distribution Before Removing Outliers
+
+![Before](images/boxplot_before.png)
+
+---
+
+### Age Distribution After Removing Outliers
+
+![After](images/boxplot_after.png)
+
+---
+
+### Model Comparison
+
+![Comparison](images/model_comparison.png)
+
+---
+
+### Model Evaluation
+
+![Evaluation](images/model_evaluation.png)
+
+---
+
+### Neural Network Accuracy
+
+![MLP](images/mlp_classifier_accuracy.png)
+
+---
+
+## Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Shravanigs09/Employee-Income-Predictor.git
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the notebook
+
+```
+notebook/edunet.ipynb
+```
+
+---
+
+## Future Improvements
 
 - Deploy using Streamlit
-- Improve model accuracy
-- Hyperparameter tuning
-- Add web interface
-- Integrate with HR Management System
+- Hyperparameter Tuning
+- Improve Prediction Accuracy
+- Save the trained model using Pickle
 
 ---
 
-## 👩‍💻 Author
+## Author
 
-**Shravani G S**
+Shravani G S
 
 Computer Science Engineering (AI & ML)
 
-GitHub: https://github.com/Shravanigs09
+GitHub:
+https://github.com/Shravanigs09
