@@ -120,6 +120,12 @@ Random Forest achieved the highest accuracy among the implemented models.
 
 ---
 
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+---
+
 ## Installation
 
 Clone the repository
